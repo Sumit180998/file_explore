@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.actions{
+  margin-left: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+.actions:hover{
+  background: #d0d0d0;
+
+}
+.add-button{
+  background: #4caf50;
+  color: white;
+}
+.add-button:hover{
+  background: #45a049;
+
+}
+.rename-button{
+  background: #2196f3;
+  color: white;
+}
+.rename-button:hover{
+  background: #1976d2;
+}
+.delete-button{
+  background-color: #f44336;
+  color: white;
+}
+.delete-button:hover{
+  background: #d32f2f;
+}
