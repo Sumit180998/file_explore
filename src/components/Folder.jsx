@@ -4,7 +4,7 @@ import { FileExplorerContext } from "../FileExplorerContext";
 
 function Folder({ item }) {
   const [open, setOpen] = useState(true);
-  const [newName, setNewName] = useState("");
+//   const [newName, setNewName] = useState("");
 //   const [showRename, setShowRename] = useState(true);
   const {data, setData}=useContext(FileExplorerContext)
 
